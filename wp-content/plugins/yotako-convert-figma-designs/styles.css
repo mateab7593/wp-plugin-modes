@@ -1,0 +1,2235 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap);
+#figma-to-wordpress-root {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#figma-to-wordpress-root .animate-fadeIn {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com */
+
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/*
+Document
+========
+*/
+
+/**
+Use a better box model (opinionated).
+*/
+
+#figma-to-wordpress-root *,
+#figma-to-wordpress-root ::before,
+#figma-to-wordpress-root ::after {
+  box-sizing: border-box;
+}
+
+/**
+Use a more readable tab size (opinionated).
+*/
+
+#figma-to-wordpress-root html {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+
+#figma-to-wordpress-root html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+Sections
+========
+*/
+
+/**
+Remove the margin in all browsers.
+*/
+
+#figma-to-wordpress-root body {
+  margin: 0;
+}
+
+/**
+Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+*/
+
+#figma-to-wordpress-root body {
+  font-family:
+		system-ui,
+		-apple-system, /* Firefox supports this but not yet `system-ui` */
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+
+/*
+Grouping content
+================
+*/
+
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
+
+#figma-to-wordpress-root hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+}
+
+/*
+Text-level semantics
+====================
+*/
+
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+#figma-to-wordpress-root abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+
+#figma-to-wordpress-root b,
+#figma-to-wordpress-root strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+
+#figma-to-wordpress-root code,
+#figma-to-wordpress-root kbd,
+#figma-to-wordpress-root samp,
+#figma-to-wordpress-root pre {
+  font-family:
+		ui-monospace,
+		SFMono-Regular,
+		Consolas,
+		'Liberation Mono',
+		Menlo,
+		monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+
+#figma-to-wordpress-root small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+
+#figma-to-wordpress-root sub,
+#figma-to-wordpress-root sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+#figma-to-wordpress-root sub {
+  bottom: -0.25em;
+}
+
+#figma-to-wordpress-root sup {
+  top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+
+#figma-to-wordpress-root table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+}
+
+/*
+Forms
+=====
+*/
+
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+
+#figma-to-wordpress-root button,
+#figma-to-wordpress-root input,
+#figma-to-wordpress-root optgroup,
+#figma-to-wordpress-root select,
+#figma-to-wordpress-root textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+1. Remove the inheritance of text transform in Firefox.
+*/
+
+#figma-to-wordpress-root button,
+#figma-to-wordpress-root select { /* 1 */
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+
+#figma-to-wordpress-root button,
+#figma-to-wordpress-root [type='button'],
+#figma-to-wordpress-root [type='reset'],
+#figma-to-wordpress-root [type='submit'] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+
+#figma-to-wordpress-root ::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+*/
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+
+#figma-to-wordpress-root legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+#figma-to-wordpress-root progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+#figma-to-wordpress-root ::-webkit-inner-spin-button,
+#figma-to-wordpress-root ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+#figma-to-wordpress-root [type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+#figma-to-wordpress-root ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+
+#figma-to-wordpress-root ::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+#figma-to-wordpress-root summary {
+  display: list-item;
+}
+
+/**
+ * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
+ * A thin layer on top of normalize.css that provides a starting point more
+ * suitable for web applications.
+ */
+
+/**
+ * Removes the default spacing and border for appropriate elements.
+ */
+
+#figma-to-wordpress-root blockquote,
+#figma-to-wordpress-root dl,
+#figma-to-wordpress-root dd,
+#figma-to-wordpress-root h1,
+#figma-to-wordpress-root h2,
+#figma-to-wordpress-root h3,
+#figma-to-wordpress-root h4,
+#figma-to-wordpress-root h5,
+#figma-to-wordpress-root h6,
+#figma-to-wordpress-root hr,
+#figma-to-wordpress-root figure,
+#figma-to-wordpress-root p,
+#figma-to-wordpress-root pre {
+  margin: 0;
+}
+
+#figma-to-wordpress-root button {
+  background-color: transparent;
+  background-image: none;
+}
+
+#figma-to-wordpress-root fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+#figma-to-wordpress-root ol,
+#figma-to-wordpress-root ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Tailwind custom reset styles
+ */
+
+/**
+ * 1. Use the user's configured `sans` font-family (with Tailwind's default
+ *    sans-serif font stack as a fallback) as a sane default.
+ * 2. Use Tailwind's default "normal" line-height so the user isn't forced
+ *    to override it to ensure consistency even when using the default theme.
+ */
+
+#figma-to-wordpress-root html {
+  font-family: Poppins, sans-serif; /* 1 */
+  line-height: 1.5; /* 2 */
+}
+
+/**
+ * Inherit font-family and line-height from `html` so users can set them as
+ * a class directly on the `html` element.
+ */
+
+#figma-to-wordpress-root body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+/**
+ * 1. Prevent padding and border from affecting element width.
+ *
+ *    We used to set this in the html element and inherit from
+ *    the parent element for everything else. This caused issues
+ *    in shadow-dom-enhanced elements like <details> where the content
+ *    is wrapped by a div with box-sizing set to `content-box`.
+ *
+ *    https://github.com/mozdevs/cssremedy/issues/4
+ *
+ *
+ * 2. Allow adding a border to an element by just adding a border-width.
+ *
+ *    By default, the way the browser specifies that an element should have no
+ *    border is by setting it's border-style to `none` in the user-agent
+ *    stylesheet.
+ *
+ *    In order to easily add borders to elements by just setting the `border-width`
+ *    property, we change the default border-style for all elements to `solid`, and
+ *    use border-width to hide them instead. This way our `border` utilities only
+ *    need to set the `border-width` property instead of the entire `border`
+ *    shorthand, making our border utilities much more straightforward to compose.
+ *
+ *    https://github.com/tailwindcss/tailwindcss/pull/116
+ */
+
+#figma-to-wordpress-root *,
+#figma-to-wordpress-root ::before,
+#figma-to-wordpress-root ::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+/*
+ * Ensure horizontal rules are visible by default
+ */
+
+#figma-to-wordpress-root hr {
+  border-top-width: 1px;
+}
+
+/**
+ * Undo the `border-style: none` reset that Normalize applies to images so that
+ * our `border-{width}` utilities have the expected effect.
+ *
+ * The Normalize reset is unnecessary for us since we default the border-width
+ * to 0 on all elements.
+ *
+ * https://github.com/tailwindcss/tailwindcss/issues/362
+ */
+
+#figma-to-wordpress-root img {
+  border-style: solid;
+}
+
+#figma-to-wordpress-root textarea {
+  resize: vertical;
+}
+
+#figma-to-wordpress-root input::-moz-placeholder, #figma-to-wordpress-root textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+#figma-to-wordpress-root input::placeholder,
+#figma-to-wordpress-root textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+#figma-to-wordpress-root button {
+  cursor: pointer;
+}
+
+/**
+ * Override legacy focus reset from Normalize with modern Firefox focus styles.
+ *
+ * This is actually an improvement over the new defaults in Firefox in our testing,
+ * as it triggers the better focus styles even for links, which still use a dotted
+ * outline in Firefox by default.
+ */
+
+#figma-to-wordpress-root table {
+  border-collapse: collapse;
+}
+
+#figma-to-wordpress-root h1,
+#figma-to-wordpress-root h2,
+#figma-to-wordpress-root h3,
+#figma-to-wordpress-root h4,
+#figma-to-wordpress-root h5,
+#figma-to-wordpress-root h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/**
+ * Reset links to optimize for opt-in styling instead of
+ * opt-out.
+ */
+
+#figma-to-wordpress-root a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/**
+ * Reset form element properties that are easy to forget to
+ * style explicitly so you don't inadvertently introduce
+ * styles that deviate from your design system. These styles
+ * supplement a partial reset that is already applied by
+ * normalize.css.
+ */
+
+#figma-to-wordpress-root button,
+#figma-to-wordpress-root input,
+#figma-to-wordpress-root optgroup,
+#figma-to-wordpress-root select,
+#figma-to-wordpress-root textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/**
+ * Use the configured 'mono' font family for elements that
+ * are expected to be rendered with a monospace font, falling
+ * back to the system monospace stack if there is no configured
+ * 'mono' font family.
+ */
+
+#figma-to-wordpress-root pre,
+#figma-to-wordpress-root code,
+#figma-to-wordpress-root kbd,
+#figma-to-wordpress-root samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/**
+ * 1. Make replaced elements `display: block` by default as that's
+ *    the behavior you want almost all of the time. Inspired by
+ *    CSS Remedy, with `svg` added as well.
+ *
+ *    https://github.com/mozdevs/cssremedy/issues/14
+ * 
+ * 2. Add `vertical-align: middle` to align replaced elements more
+ *    sensibly by default when overriding `display` by adding a
+ *    utility like `inline`.
+ *
+ *    This can trigger a poorly considered linting error in some
+ *    tools but is included by design.
+ * 
+ *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210
+ */
+
+#figma-to-wordpress-root img,
+#figma-to-wordpress-root svg,
+#figma-to-wordpress-root video,
+#figma-to-wordpress-root canvas,
+#figma-to-wordpress-root audio,
+#figma-to-wordpress-root iframe,
+#figma-to-wordpress-root embed,
+#figma-to-wordpress-root object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their intrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+#figma-to-wordpress-root img,
+#figma-to-wordpress-root video {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Ensure the default browser behavior of the `hidden` attribute.
+ */
+
+#figma-to-wordpress-root *, #figma-to-wordpress-root ::before, #figma-to-wordpress-root ::after{
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  #figma-to-wordpress-root .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  #figma-to-wordpress-root .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  #figma-to-wordpress-root .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  #figma-to-wordpress-root .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  #figma-to-wordpress-root .container{
+    max-width: 1536px;
+  }
+}
+
+#figma-to-wordpress-root .fixed{
+  position: fixed;
+}
+
+#figma-to-wordpress-root .absolute{
+  position: absolute;
+}
+
+#figma-to-wordpress-root .relative{
+  position: relative;
+}
+
+#figma-to-wordpress-root .inset-0{
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#figma-to-wordpress-root .top-0{
+  top: 0px;
+}
+
+#figma-to-wordpress-root .top-2{
+  top: 0.5rem;
+}
+
+#figma-to-wordpress-root .top-3{
+  top: 0.75rem;
+}
+
+#figma-to-wordpress-root .top-1\/2{
+  top: 50%;
+}
+
+#figma-to-wordpress-root .right-0{
+  right: 0px;
+}
+
+#figma-to-wordpress-root .right-2{
+  right: 0.5rem;
+}
+
+#figma-to-wordpress-root .right-3{
+  right: 0.75rem;
+}
+
+#figma-to-wordpress-root .-right-6{
+  right: -1.5rem;
+}
+
+#figma-to-wordpress-root .left-0{
+  left: 0px;
+}
+
+#figma-to-wordpress-root .left-2{
+  left: 0.5rem;
+}
+
+#figma-to-wordpress-root .z-10{
+  z-index: 10;
+}
+
+#figma-to-wordpress-root .z-50{
+  z-index: 50;
+}
+
+#figma-to-wordpress-root .m-2{
+  margin: 0.5rem;
+}
+
+#figma-to-wordpress-root .mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#figma-to-wordpress-root .my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#figma-to-wordpress-root .my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#figma-to-wordpress-root .my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#figma-to-wordpress-root .my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+#figma-to-wordpress-root .my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#figma-to-wordpress-root .mt-1{
+  margin-top: 0.25rem;
+}
+
+#figma-to-wordpress-root .mt-2{
+  margin-top: 0.5rem;
+}
+
+#figma-to-wordpress-root .mt-3{
+  margin-top: 0.75rem;
+}
+
+#figma-to-wordpress-root .mt-4{
+  margin-top: 1rem;
+}
+
+#figma-to-wordpress-root .mt-5{
+  margin-top: 1.25rem;
+}
+
+#figma-to-wordpress-root .mt-6{
+  margin-top: 1.5rem;
+}
+
+#figma-to-wordpress-root .mt-8{
+  margin-top: 2rem;
+}
+
+#figma-to-wordpress-root .mt-10{
+  margin-top: 2.5rem;
+}
+
+#figma-to-wordpress-root .mr-2{
+  margin-right: 0.5rem;
+}
+
+#figma-to-wordpress-root .mr-3{
+  margin-right: 0.75rem;
+}
+
+#figma-to-wordpress-root .mb-0{
+  margin-bottom: 0px;
+}
+
+#figma-to-wordpress-root .mb-1{
+  margin-bottom: 0.25rem;
+}
+
+#figma-to-wordpress-root .mb-2{
+  margin-bottom: 0.5rem;
+}
+
+#figma-to-wordpress-root .mb-3{
+  margin-bottom: 0.75rem;
+}
+
+#figma-to-wordpress-root .mb-4{
+  margin-bottom: 1rem;
+}
+
+#figma-to-wordpress-root .mb-5{
+  margin-bottom: 1.25rem;
+}
+
+#figma-to-wordpress-root .mb-6{
+  margin-bottom: 1.5rem;
+}
+
+#figma-to-wordpress-root .mb-8{
+  margin-bottom: 2rem;
+}
+
+#figma-to-wordpress-root .mb-10{
+  margin-bottom: 2.5rem;
+}
+
+#figma-to-wordpress-root .mb-0\.5{
+  margin-bottom: 0.125rem;
+}
+
+#figma-to-wordpress-root .ml-1{
+  margin-left: 0.25rem;
+}
+
+#figma-to-wordpress-root .ml-2{
+  margin-left: 0.5rem;
+}
+
+#figma-to-wordpress-root .ml-4{
+  margin-left: 1rem;
+}
+
+#figma-to-wordpress-root .ml-6{
+  margin-left: 1.5rem;
+}
+
+#figma-to-wordpress-root .block{
+  display: block;
+}
+
+#figma-to-wordpress-root .flex{
+  display: flex;
+}
+
+#figma-to-wordpress-root .inline-flex{
+  display: inline-flex;
+}
+
+#figma-to-wordpress-root .table{
+  display: table;
+}
+
+#figma-to-wordpress-root .grid{
+  display: grid;
+}
+
+#figma-to-wordpress-root .h-1{
+  height: 0.25rem;
+}
+
+#figma-to-wordpress-root .h-2{
+  height: 0.5rem;
+}
+
+#figma-to-wordpress-root .h-4{
+  height: 1rem;
+}
+
+#figma-to-wordpress-root .h-5{
+  height: 1.25rem;
+}
+
+#figma-to-wordpress-root .h-6{
+  height: 1.5rem;
+}
+
+#figma-to-wordpress-root .h-8{
+  height: 2rem;
+}
+
+#figma-to-wordpress-root .h-9{
+  height: 2.25rem;
+}
+
+#figma-to-wordpress-root .h-10{
+  height: 2.5rem;
+}
+
+#figma-to-wordpress-root .h-12{
+  height: 3rem;
+}
+
+#figma-to-wordpress-root .h-32{
+  height: 8rem;
+}
+
+#figma-to-wordpress-root .h-auto{
+  height: auto;
+}
+
+#figma-to-wordpress-root .h-2\.5{
+  height: 0.625rem;
+}
+
+#figma-to-wordpress-root .h-full{
+  height: 100%;
+}
+
+#figma-to-wordpress-root .h-screen{
+  height: 100vh;
+}
+
+#figma-to-wordpress-root .max-h-20{
+  max-height: 5rem;
+}
+
+#figma-to-wordpress-root .w-2{
+  width: 0.5rem;
+}
+
+#figma-to-wordpress-root .w-4{
+  width: 1rem;
+}
+
+#figma-to-wordpress-root .w-5{
+  width: 1.25rem;
+}
+
+#figma-to-wordpress-root .w-6{
+  width: 1.5rem;
+}
+
+#figma-to-wordpress-root .w-8{
+  width: 2rem;
+}
+
+#figma-to-wordpress-root .w-9{
+  width: 2.25rem;
+}
+
+#figma-to-wordpress-root .w-10{
+  width: 2.5rem;
+}
+
+#figma-to-wordpress-root .w-12{
+  width: 3rem;
+}
+
+#figma-to-wordpress-root .w-64{
+  width: 16rem;
+}
+
+#figma-to-wordpress-root .w-80{
+  width: 20rem;
+}
+
+#figma-to-wordpress-root .w-2\.5{
+  width: 0.625rem;
+}
+
+#figma-to-wordpress-root .w-1\/3{
+  width: 33.333333%;
+}
+
+#figma-to-wordpress-root .w-2\/3{
+  width: 66.666667%;
+}
+
+#figma-to-wordpress-root .w-full{
+  width: 100%;
+}
+
+#figma-to-wordpress-root .min-w-0{
+  min-width: 0px;
+}
+
+#figma-to-wordpress-root .max-w-sm{
+  max-width: 24rem;
+}
+
+#figma-to-wordpress-root .max-w-md{
+  max-width: 28rem;
+}
+
+#figma-to-wordpress-root .max-w-lg{
+  max-width: 32rem;
+}
+
+#figma-to-wordpress-root .max-w-xl{
+  max-width: 36rem;
+}
+
+#figma-to-wordpress-root .max-w-4xl{
+  max-width: 56rem;
+}
+
+#figma-to-wordpress-root .max-w-5xl{
+  max-width: 64rem;
+}
+
+#figma-to-wordpress-root .max-w-full{
+  max-width: 100%;
+}
+
+#figma-to-wordpress-root .flex-1{
+  flex: 1 1 0%;
+}
+
+#figma-to-wordpress-root .flex-shrink-0{
+  flex-shrink: 0;
+}
+
+#figma-to-wordpress-root .flex-grow{
+  flex-grow: 1;
+}
+
+#figma-to-wordpress-root .transform{
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+#figma-to-wordpress-root .-translate-y-1\/2{
+  --tw-translate-y: -50%;
+}
+
+#figma-to-wordpress-root .scale-105{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+}
+
+#figma-to-wordpress-root .scale-125{
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+}
+
+#figma-to-wordpress-root .hover\:scale-105:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+}
+
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ping{
+  75%, 100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+@keyframes bounce{
+  0%, 100%{
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50%{
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+#figma-to-wordpress-root .animate-spin{
+  animation: spin 1s linear infinite;
+}
+
+#figma-to-wordpress-root .cursor-pointer{
+  cursor: pointer;
+}
+
+#figma-to-wordpress-root .cursor-not-allowed{
+  cursor: not-allowed;
+}
+
+#figma-to-wordpress-root .list-inside{
+  list-style-position: inside;
+}
+
+#figma-to-wordpress-root .list-disc{
+  list-style-type: disc;
+}
+
+#figma-to-wordpress-root .list-decimal{
+  list-style-type: decimal;
+}
+
+#figma-to-wordpress-root .grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+#figma-to-wordpress-root .grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#figma-to-wordpress-root .flex-col{
+  flex-direction: column;
+}
+
+#figma-to-wordpress-root .flex-wrap{
+  flex-wrap: wrap;
+}
+
+#figma-to-wordpress-root .items-start{
+  align-items: flex-start;
+}
+
+#figma-to-wordpress-root .items-center{
+  align-items: center;
+}
+
+#figma-to-wordpress-root .justify-end{
+  justify-content: flex-end;
+}
+
+#figma-to-wordpress-root .justify-center{
+  justify-content: center;
+}
+
+#figma-to-wordpress-root .justify-between{
+  justify-content: space-between;
+}
+
+#figma-to-wordpress-root .gap-1{
+  gap: 0.25rem;
+}
+
+#figma-to-wordpress-root .gap-2{
+  gap: 0.5rem;
+}
+
+#figma-to-wordpress-root .gap-3{
+  gap: 0.75rem;
+}
+
+#figma-to-wordpress-root .gap-4{
+  gap: 1rem;
+}
+
+#figma-to-wordpress-root .gap-1\.5{
+  gap: 0.375rem;
+}
+
+#figma-to-wordpress-root .space-x-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+#figma-to-wordpress-root .space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+#figma-to-wordpress-root .space-x-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+#figma-to-wordpress-root .space-y-1 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+#figma-to-wordpress-root .space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+#figma-to-wordpress-root .space-y-3 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+#figma-to-wordpress-root .space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+#figma-to-wordpress-root .overflow-hidden{
+  overflow: hidden;
+}
+
+#figma-to-wordpress-root .overflow-y-auto{
+  overflow-y: auto;
+}
+
+#figma-to-wordpress-root .overflow-x-hidden{
+  overflow-x: hidden;
+}
+
+#figma-to-wordpress-root .truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#figma-to-wordpress-root .whitespace-nowrap{
+  white-space: nowrap;
+}
+
+#figma-to-wordpress-root .break-words{
+  overflow-wrap: break-word;
+}
+
+#figma-to-wordpress-root .rounded-sm{
+  border-radius: 0.125rem;
+}
+
+#figma-to-wordpress-root .rounded{
+  border-radius: 0.25rem;
+}
+
+#figma-to-wordpress-root .rounded-md{
+  border-radius: 0.375rem;
+}
+
+#figma-to-wordpress-root .rounded-lg{
+  border-radius: 0.5rem;
+}
+
+#figma-to-wordpress-root .rounded-xl{
+  border-radius: 0.75rem;
+}
+
+#figma-to-wordpress-root .rounded-full{
+  border-radius: 9999px;
+}
+
+#figma-to-wordpress-root .border-2{
+  border-width: 2px;
+}
+
+#figma-to-wordpress-root .border-4{
+  border-width: 4px;
+}
+
+#figma-to-wordpress-root .border{
+  border-width: 1px;
+}
+
+#figma-to-wordpress-root .border-t{
+  border-top-width: 1px;
+}
+
+#figma-to-wordpress-root .border-r{
+  border-right-width: 1px;
+}
+
+#figma-to-wordpress-root .border-b-2{
+  border-bottom-width: 2px;
+}
+
+#figma-to-wordpress-root .border-b{
+  border-bottom-width: 1px;
+}
+
+#figma-to-wordpress-root .border-dashed{
+  border-style: dashed;
+}
+
+#figma-to-wordpress-root .border-gray-200{
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-gray-300{
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-gray-400{
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-red-300{
+  --tw-border-opacity: 1;
+  border-color: rgba(252, 165, 165, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-red-400{
+  --tw-border-opacity: 1;
+  border-color: rgba(248, 113, 113, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-red-500{
+  --tw-border-opacity: 1;
+  border-color: rgba(239, 68, 68, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-yellow-200{
+  --tw-border-opacity: 1;
+  border-color: rgba(253, 230, 138, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-yellow-400{
+  --tw-border-opacity: 1;
+  border-color: rgba(251, 191, 36, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-green-200{
+  --tw-border-opacity: 1;
+  border-color: rgba(167, 243, 208, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-green-300{
+  --tw-border-opacity: 1;
+  border-color: rgba(110, 231, 183, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-blue-200{
+  --tw-border-opacity: 1;
+  border-color: rgba(191, 219, 254, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-blue-400{
+  --tw-border-opacity: 1;
+  border-color: rgba(96, 165, 250, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-blue-500{
+  --tw-border-opacity: 1;
+  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-blue-600{
+  --tw-border-opacity: 1;
+  border-color: rgba(37, 99, 235, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-purple-200{
+  --tw-border-opacity: 1;
+  border-color: rgba(221, 214, 254, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-purple-300{
+  --tw-border-opacity: 1;
+  border-color: rgba(196, 181, 253, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .border-purple-500{
+  --tw-border-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+}
+
+#figma-to-wordpress-root .bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-gray-100{
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-red-50{
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 242, 242, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-red-600{
+  --tw-bg-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-yellow-50{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-yellow-100{
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-green-50{
+  --tw-bg-opacity: 1;
+  background-color: rgba(236, 253, 245, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-blue-50{
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 246, 255, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-blue-100{
+  --tw-bg-opacity: 1;
+  background-color: rgba(219, 234, 254, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-blue-600{
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-purple-50{
+  --tw-bg-opacity: 1;
+  background-color: rgba(245, 243, 255, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-purple-100{
+  --tw-bg-opacity: 1;
+  background-color: rgba(237, 233, 254, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-purple-500{
+  --tw-bg-opacity: 1;
+  background-color: rgba(139, 92, 246, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-purple-600{
+  --tw-bg-opacity: 1;
+  background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-gray-50:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-gray-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-gray-300:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-gray-400:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-red-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-yellow-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-green-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(4, 120, 87, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-blue-600:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-blue-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-purple-50:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(245, 243, 255, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-purple-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(221, 214, 254, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-purple-400:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(167, 139, 250, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-purple-600:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .hover\:bg-purple-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(109, 40, 217, var(--tw-bg-opacity));
+}
+
+#figma-to-wordpress-root .bg-opacity-30{
+  --tw-bg-opacity: 0.3;
+}
+
+#figma-to-wordpress-root .bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
+#figma-to-wordpress-root .bg-opacity-60{
+  --tw-bg-opacity: 0.6;
+}
+
+#figma-to-wordpress-root .hover\:bg-opacity-20:hover{
+  --tw-bg-opacity: 0.2;
+}
+
+#figma-to-wordpress-root .hover\:bg-opacity-50:hover{
+  --tw-bg-opacity: 0.5;
+}
+
+#figma-to-wordpress-root .bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+#figma-to-wordpress-root .from-blue-600{
+  --tw-gradient-from: #2563eb;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(37, 99, 235, 0));
+}
+
+#figma-to-wordpress-root .from-purple-600{
+  --tw-gradient-from: #7c3aed;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(124, 58, 237, 0));
+}
+
+#figma-to-wordpress-root .to-blue-400{
+  --tw-gradient-to: #60a5fa;
+}
+
+#figma-to-wordpress-root .to-blue-700{
+  --tw-gradient-to: #1d4ed8;
+}
+
+#figma-to-wordpress-root .to-purple-800{
+  --tw-gradient-to: #5b21b6;
+}
+
+#figma-to-wordpress-root .to-pink-500{
+  --tw-gradient-to: #ec4899;
+}
+
+#figma-to-wordpress-root .bg-clip-text{
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+#figma-to-wordpress-root .object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#figma-to-wordpress-root .p-1{
+  padding: 0.25rem;
+}
+
+#figma-to-wordpress-root .p-2{
+  padding: 0.5rem;
+}
+
+#figma-to-wordpress-root .p-3{
+  padding: 0.75rem;
+}
+
+#figma-to-wordpress-root .p-4{
+  padding: 1rem;
+}
+
+#figma-to-wordpress-root .p-5{
+  padding: 1.25rem;
+}
+
+#figma-to-wordpress-root .p-6{
+  padding: 1.5rem;
+}
+
+#figma-to-wordpress-root .p-1\.5{
+  padding: 0.375rem;
+}
+
+#figma-to-wordpress-root .px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+#figma-to-wordpress-root .px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#figma-to-wordpress-root .px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+#figma-to-wordpress-root .px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#figma-to-wordpress-root .px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#figma-to-wordpress-root .px-1\.5{
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
+#figma-to-wordpress-root .py-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#figma-to-wordpress-root .py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+#figma-to-wordpress-root .py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#figma-to-wordpress-root .py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+#figma-to-wordpress-root .py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#figma-to-wordpress-root .py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+#figma-to-wordpress-root .py-0\.5{
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+#figma-to-wordpress-root .py-1\.5{
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+#figma-to-wordpress-root .py-2\.5{
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+#figma-to-wordpress-root .pt-2{
+  padding-top: 0.5rem;
+}
+
+#figma-to-wordpress-root .pt-4{
+  padding-top: 1rem;
+}
+
+#figma-to-wordpress-root .pr-4{
+  padding-right: 1rem;
+}
+
+#figma-to-wordpress-root .pr-8{
+  padding-right: 2rem;
+}
+
+#figma-to-wordpress-root .pb-2{
+  padding-bottom: 0.5rem;
+}
+
+#figma-to-wordpress-root .text-left{
+  text-align: left;
+}
+
+#figma-to-wordpress-root .text-center{
+  text-align: center;
+}
+
+#figma-to-wordpress-root .text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+#figma-to-wordpress-root .text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+#figma-to-wordpress-root .text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+#figma-to-wordpress-root .text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+#figma-to-wordpress-root .text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+#figma-to-wordpress-root .text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+#figma-to-wordpress-root .font-normal{
+  font-weight: 400;
+}
+
+#figma-to-wordpress-root .font-medium{
+  font-weight: 500;
+}
+
+#figma-to-wordpress-root .font-semibold{
+  font-weight: 600;
+}
+
+#figma-to-wordpress-root .font-bold{
+  font-weight: 700;
+}
+
+#figma-to-wordpress-root .capitalize{
+  text-transform: capitalize;
+}
+
+#figma-to-wordpress-root .italic{
+  font-style: italic;
+}
+
+#figma-to-wordpress-root .leading-tight{
+  line-height: 1.25;
+}
+
+#figma-to-wordpress-root .leading-relaxed{
+  line-height: 1.625;
+}
+
+#figma-to-wordpress-root .text-transparent{
+  color: transparent;
+}
+
+#figma-to-wordpress-root .text-white{
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgba(229, 231, 235, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-300{
+  --tw-text-opacity: 1;
+  color: rgba(209, 213, 219, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-gray-900{
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-red-500{
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-red-600{
+  --tw-text-opacity: 1;
+  color: rgba(220, 38, 38, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-red-700{
+  --tw-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-red-800{
+  --tw-text-opacity: 1;
+  color: rgba(153, 27, 27, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-yellow-600{
+  --tw-text-opacity: 1;
+  color: rgba(217, 119, 6, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-yellow-700{
+  --tw-text-opacity: 1;
+  color: rgba(180, 83, 9, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-yellow-800{
+  --tw-text-opacity: 1;
+  color: rgba(146, 64, 14, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-green-500{
+  --tw-text-opacity: 1;
+  color: rgba(16, 185, 129, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-green-700{
+  --tw-text-opacity: 1;
+  color: rgba(4, 120, 87, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-green-800{
+  --tw-text-opacity: 1;
+  color: rgba(6, 95, 70, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-blue-700{
+  --tw-text-opacity: 1;
+  color: rgba(29, 78, 216, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgba(30, 64, 175, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-purple-100{
+  --tw-text-opacity: 1;
+  color: rgba(237, 233, 254, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-purple-500{
+  --tw-text-opacity: 1;
+  color: rgba(139, 92, 246, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-purple-600{
+  --tw-text-opacity: 1;
+  color: rgba(124, 58, 237, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-purple-700{
+  --tw-text-opacity: 1;
+  color: rgba(109, 40, 217, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .text-purple-800{
+  --tw-text-opacity: 1;
+  color: rgba(91, 33, 182, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-gray-700:hover{
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-gray-800:hover{
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-red-700:hover{
+  --tw-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-red-800:hover{
+  --tw-text-opacity: 1;
+  color: rgba(153, 27, 27, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-yellow-800:hover{
+  --tw-text-opacity: 1;
+  color: rgba(146, 64, 14, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-purple-600:hover{
+  --tw-text-opacity: 1;
+  color: rgba(124, 58, 237, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .hover\:text-purple-700:hover{
+  --tw-text-opacity: 1;
+  color: rgba(109, 40, 217, var(--tw-text-opacity));
+}
+
+#figma-to-wordpress-root .underline{
+  text-decoration: underline;
+}
+
+#figma-to-wordpress-root .no-underline{
+  text-decoration: none;
+}
+
+#figma-to-wordpress-root .opacity-0{
+  opacity: 0;
+}
+
+#figma-to-wordpress-root .opacity-100{
+  opacity: 1;
+}
+
+#figma-to-wordpress-root *, #figma-to-wordpress-root ::before, #figma-to-wordpress-root ::after{
+  --tw-shadow: 0 0 #0000;
+}
+
+#figma-to-wordpress-root .shadow{
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#figma-to-wordpress-root .shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#figma-to-wordpress-root .shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#figma-to-wordpress-root .shadow-2xl{
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#figma-to-wordpress-root .hover\:shadow-md:hover{
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#figma-to-wordpress-root .hover\:shadow-lg:hover{
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#figma-to-wordpress-root *, #figma-to-wordpress-root ::before, #figma-to-wordpress-root ::after{
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+}
+
+#figma-to-wordpress-root .focus\:ring-2:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+#figma-to-wordpress-root .focus\:ring-blue-500:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(59, 130, 246, var(--tw-ring-opacity));
+}
+
+#figma-to-wordpress-root .filter{
+  --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+  --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+#figma-to-wordpress-root .transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+#figma-to-wordpress-root .transition{
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+#figma-to-wordpress-root .transition-colors{
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+#figma-to-wordpress-root .transition-opacity{
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+#figma-to-wordpress-root .transition-shadow{
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+#figma-to-wordpress-root .transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+#figma-to-wordpress-root .duration-200{
+  transition-duration: 200ms;
+}
+
+/* Smooth Gallery Carousel */
+
+#figma-to-wordpress-root .smooth-gallery {
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+#figma-to-wordpress-root .smooth-gallery-track {
+  display: flex;
+  gap: 12px;
+  animation: smooth-scroll 30s linear infinite;
+}
+
+#figma-to-wordpress-root .smooth-gallery-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes smooth-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+#figma-to-wordpress-root .smooth-gallery-item {
+  flex-shrink: 0;
+  width: 200px;
+  height: 130px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  background: linear-gradient(
+    135deg,
+    rgba(147, 51, 234, 0.1) 0%,
+    rgba(139, 92, 246, 0.1) 100%
+  );
+}
+
+#figma-to-wordpress-root .smooth-gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(147, 51, 234, 0.25);
+}
+
+#figma-to-wordpress-root .smooth-gallery-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* WPMaven Sparkle Animation */
+
+@keyframes sparkle-colors {
+  0%,
+  100% {
+    stroke: #ffffff;
+    filter: drop-shadow(0 0 2px #ffffff);
+  }
+
+  20% {
+    stroke: #f0abfc;
+    filter: drop-shadow(0 0 4px #f0abfc);
+  }
+
+  40% {
+    stroke: #c4b5fd;
+    filter: drop-shadow(0 0 4px #c4b5fd);
+  }
+
+  60% {
+    stroke: #93c5fd;
+    filter: drop-shadow(0 0 4px #93c5fd);
+  }
+
+  80% {
+    stroke: #fcd34d;
+    filter: drop-shadow(0 0 4px #fcd34d);
+  }
+}
+
+@keyframes sparkle-scale {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  50% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  75% {
+    transform: scale(1.1) rotate(-5deg);
+  }
+}
+
+#figma-to-wordpress-root svg.wpmaven-sparkle-icon {
+  animation:
+    sparkle-colors 3s ease-in-out infinite,
+    sparkle-scale 2s ease-in-out infinite;
+  stroke: #ffffff;
+}
+
+#figma-to-wordpress-root svg.wpmaven-sparkle-icon path {
+  stroke: inherit;
+}
+
+/* Orange button override for WordPress admin */
+
+#figma-to-wordpress-root .btn-orange {
+  background-color: #f97316 !important;
+  color: white !important;
+}
+
+#figma-to-wordpress-root .btn-orange:hover {
+  background-color: #ea580c !important;
+}
+
+@media (min-width: 640px){
+}
+
+@media (min-width: 768px){
+  #figma-to-wordpress-root .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #figma-to-wordpress-root .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #figma-to-wordpress-root .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  #figma-to-wordpress-root .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px){
+  #figma-to-wordpress-root .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px){
+}
+
+@media (min-width: 1536px){
+}
+
+
+/*# sourceMappingURL=styles.css.map*/

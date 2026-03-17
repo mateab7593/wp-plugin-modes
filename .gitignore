@@ -1,0 +1,21 @@
+# WordPress core (downloaded via Docker)
+wordpress/
+
+# Environment files with secrets
+.env
+
+# Database volume
+db_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
